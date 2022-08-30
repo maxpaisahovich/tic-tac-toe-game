@@ -117,7 +117,7 @@ function minimax(newBoard, player) {
     moves.push(move);
   }
 
-  var bestMove;
+  let bestMove;
   if (player === aiPlayer) {
     let bestScore = -10000;
     for (let i = 0; i < moves.length; i++) {
